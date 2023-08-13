@@ -19,8 +19,6 @@ class AlienInvasion:
         
         self.ship = Ship(self)
 
-        # Set the background color.
-        self.bg_color = (230,   230, 230)
 
     def run_game(self):
         """Start the main loop for the game."""
@@ -42,11 +40,10 @@ if __name__ == '__main__':
     ai = AlienInvasion()
     ai.run_game()
 
-#my notes
+# my notes
 # first we imported sys and pygame modules. The Pygame module contains the functionally to make a game.
 # we use the sys module to exit the game when the player quits.
 # at some point, we create a class Settings to hold the settings of the game and imported it 
 # into the game (alien_invasion) class.
 
-## I cannot seem to view the ship in my game... what might be wrong.
 
